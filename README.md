@@ -1,12 +1,12 @@
 I have tested with multiple set of parameters. I have mentioned with the steps bellow.
 step 1:
-	Convolutional layer: 1
-	Max-pooling layer: 1
-		pool_size: 2x2
-	hidden layer: 1
-		nodes: 256
-	Dropout layer: 1
-		Dropout: .5
+	- Convolutional layer: 1
+	- Max-pooling layer: 1
+		- pool_size: 2x2
+	- hidden layer: 1
+		- nodes: 256
+	- Dropout layer: 1
+		- Dropout: .5
 		
 Epoch 1/10
 500/500 [==============================] - 15s 14ms/step - loss: 4.6228 - accuracy: 0.0524
@@ -32,13 +32,13 @@ Epoch 10/10
 
 
 step 2:
-	Convolutional layer: 1
-	Max-pooling layer: 1
-		pool_size: 2x2
-	hidden layer: 2 <-----------------
-		nodes: 256
-	Dropout layer: 1
-		Dropout: .5
+	- Convolutional layer: 1
+	- Max-pooling layer: 1
+		- pool_size: 2x2
+	- hidden layer: 2 <-----------------
+		- nodes: 256
+	- Dropout layer: 1
+		- Dropout: .5
 		
 Epoch 1/10
 500/500 [==============================] - 13s 24ms/step - loss: 4.0410 - accuracy: 0.3834
@@ -65,13 +65,13 @@ Epoch 10/10
 
 
 step 3:
-	Convolutional layer: 2 <----------
-	Max-pooling layer: 2 <-------------
-		pool_size: 2x2
-	hidden layer: 2
-		nodes: 256
-	Dropout layer: 1
-		Dropout: .5
+	- Convolutional layer: 2 <----------
+	- Max-pooling layer: 2 <-------------
+		- pool_size: 2x2
+	- hidden layer: 2
+		- nodes: 256
+	- Dropout layer: 1
+		- Dropout: .5
 		
 Epoch 1/10
 500/500 [==============================] - 8s 13ms/step - loss: 2.4698 - accuracy: 0.4429
@@ -97,14 +97,14 @@ Epoch 10/10
 
 
 step 3:
-	Convolutional layer: 2
-		conv layer kernel size: 3x3
-	Max-pooling layer: 2
-		pool_size: 3x3 <-----------------
-	hidden layer: 2
-		nodes: 256
-	Dropout layer: 1
-		Dropout: .5
+	- Convolutional layer: 2
+		- conv layer kernel size: 3x3
+	- Max-pooling layer: 2
+		- pool_size: 3x3 <-----------------
+	- hidden layer: 2
+		- nodes: 256
+	- Dropout layer: 1
+		- Dropout: .5
 		
 Epoch 1/10
 500/500 [==============================] - 5s 8ms/step - loss: 3.2663 - accuracy: 0.2472
@@ -130,14 +130,14 @@ Epoch 10/10
 
 
 step 4:
-	Convolutional layer: 2
-		conv layer kernel size: 3x3
-	Max-pooling layer: 2
-		pool_size: 2x2
-	hidden layer: 3<---------------
-		nodes: 256
-	Dropout layer: 1
-		Dropout: .5
+	- Convolutional layer: 2
+		- conv layer kernel size: 3x3
+	- Max-pooling layer: 2
+		- pool_size: 2x2
+	- hidden layer: 3<---------------
+		- nodes: 256
+	- Dropout layer: 1
+		- Dropout: .5
 
 Epoch 1/10
 500/500 [==============================] - 8s 14ms/step - loss: 2.4490 - accuracy: 0.4515
@@ -163,14 +163,14 @@ Epoch 10/10
 
 
 step 5:
-	Convolutional layer: 2
-		conv layer kernel size: 2x2
-	Max-pooling layer: 2
-		pool_size: 2x2
-	hidden layer: 3
-		nodes: 256
-	Dropout layer: 1
-		Dropout: .5
+	- Convolutional layer: 2
+		- conv layer kernel size: 2x2
+	- Max-pooling layer: 2
+		- pool_size: 2x2
+	- hidden layer: 3
+		- nodes: 256
+	- Dropout layer: 1
+		- Dropout: .5
 		
 Epoch 1/10
 500/500 [==============================] - 7s 12ms/step - loss: 2.4169 - accuracy: 0.4057
@@ -196,14 +196,14 @@ Epoch 10/10
 
 
 step 6:
-	Convolutional layer: 2
-		conv layer kernel size: 2x2
-	Max-pooling layer: 2
-		pool_size: 2x2
-	hidden layer: 3
-		nodes: 256
-	Dropout layer: 3 <------------------
-		Dropout: .5
+	- Convolutional layer: 2
+		- conv layer kernel size: 2x2
+	- Max-pooling layer: 2
+		- pool_size: 2x2
+	- hidden layer: 3
+		- nodes: 256
+	- Dropout layer: 3 <------------------
+		- Dropout: .5
 		
 Epoch 1/10
 500/500 [==============================] - 7s 12ms/step - loss: 4.3645 - accuracy: 0.1064
@@ -228,14 +228,14 @@ Epoch 10/10
 333/333 - 1s - loss: 0.9904 - accuracy: 0.6835 - 1s/epoch - 4ms/step
 
 step 7:
-	Convolutional layer: 2
-		conv layer kernel size: 2x2
-	Max-pooling layer: 2
-		pool_size: 2x2
-	hidden layer: 4
-		nodes: 256
-	Dropout layer: 1 <--------------------
-		Dropout: .5
+	- Convolutional layer: 2
+		- conv layer kernel size: 2x2
+	- Max-pooling layer: 2
+		- pool_size: 2x2
+	- hidden layer: 4
+		- nodes: 256
+	- Dropout layer: 1 <--------------------
+		- Dropout: .5
 		
 Epoch 1/10
 500/500 [==============================] - 7s 12ms/step - loss: 2.4737 - accuracy: 0.3850
@@ -260,14 +260,14 @@ Epoch 10/10
 333/333 - 1s - loss: 0.2180 - accuracy: 0.9527 - 1s/epoch - 4ms/step
 
 step 8:
-	Convolutional layer: 2
-		conv layer kernel size: 2x2
-	Max-pooling layer: 2
-		pool_size: 2x2
-	hidden layer: 3<----------
-		nodes: 512<---------------
-	Dropout layer: 1
-		Dropout: .5
+	- Convolutional layer: 2
+		- conv layer kernel size: 2x2
+	- Max-pooling layer: 2
+		- pool_size: 2x2
+	- hidden layer: 3<----------
+		- nodes: 512<---------------
+	- Dropout layer: 1
+		- Dropout: .5
 		
 Epoch 1/10
 500/500 [==============================] - 11s 21ms/step - loss: 1.9927 - accuracy: 0.5170
@@ -292,14 +292,14 @@ Epoch 10/10
 333/333 - 2s - loss: 0.3899 - accuracy: 0.9273 - 2s/epoch - 5ms/step
 
 step 9:
-	Convolutional layer: 2
-		conv layer kernel size: 2x2
-	Max-pooling layer: 2
-		pool_size: 2x2
-	hidden layer: 3
-		nodes: 256<---------------
-	Dropout layer: 1
-		Dropout: .3<--------------
+	- Convolutional layer: 2
+		- conv layer kernel size: 2x2
+	- Max-pooling layer: 2
+		- pool_size: 2x2
+	- hidden layer: 3
+		- nodes: 256<---------------
+	- Dropout layer: 1
+		- Dropout: .3<--------------
 
 Epoch 1/10
 500/500 [==============================] - 7s 12ms/step - loss: 2.0516 - accuracy: 0.5195
@@ -324,14 +324,14 @@ Epoch 10/10
 333/333 - 1s - loss: 0.2080 - accuracy: 0.9521 - 1s/epoch - 4ms/step
 
 step 10:
-	Convolutional layer: 2
-		conv layer kernel size: 2x2
-	Max-pooling layer: 2
-		pool_size: 2x2
-	hidden layer: 3
-		nodes: 128<---------------
-	Dropout layer: 1
-		Dropout: .5<--------------
+	- Convolutional layer: 2
+		- conv layer kernel size: 2x2
+	- Max-pooling layer: 2
+		- pool_size: 2x2
+	- hidden layer: 3
+		- nodes: 128<---------------
+	- Dropout layer: 1
+		- Dropout: .5<--------------
 		
 Epoch 1/10
 500/500 [==============================] - 5s 9ms/step - loss: 2.8240 - accuracy: 0.3132
@@ -356,15 +356,15 @@ Epoch 10/10
 333/333 - 1s - loss: 0.1651 - accuracy: 0.9590 - 1s/epoch - 4ms/step
 
 step 11:
-	Convolutional layer: 2
-		conv layer kernel size: 2x2
-	Max-pooling layer: 2
-		pool_size: 2x2
-	hidden layer: 3
-		nodes: 256,128,128<---------------
+	- Convolutional layer: 2
+		- conv layer kernel size: 2x2
+	- Max-pooling layer: 2
+		- pool_size: 2x2
+	- hidden layer: 3
+		- nodes: 256,128,128<---------------
 		
-	Dropout layer: 1
-		Dropout: .5<--------------
+	- Dropout layer: 1
+		- Dropout: .5<--------------
 		
 Epoch 1/10
 500/500 [==============================] - 7s 12ms/step - loss: 2.6523 - accuracy: 0.3425
@@ -392,15 +392,15 @@ Epoch 10/10
 
 
 step 12:
-	Convolutional layer: 2
-		conv layer kernel size: 2x2
-	Max-pooling layer: 2
-		pool_size: 2x2
-	hidden layer: 3
-		nodes: 256,128,128<---------------
+	- Convolutional layer: 2
+		- conv layer kernel size: 2x2
+	- Max-pooling layer: 2
+		- pool_size: 2x2
+	- hidden layer: 3
+		- nodes: 256,128,128<---------------
 		
-	Dropout layer: 1
-		Dropout: .5<--------------
+	- Dropout layer: 1
+		- Dropout: .5<--------------
 
 
 Epoch 1/10
@@ -427,16 +427,16 @@ Epoch 10/10
 
 
 step 12:
-	Convolutional layer: 2
-		conv layer kernel size: 3x3
-		filter: 64,128
-	Max-pooling layer: 2
-		pool_size: 2x2
-	hidden layer: 3
-		nodes: 256,128,128<---------------
+	- Convolutional layer: 2
+		- conv layer kernel size: 3x3
+		- filter: 64,128
+	- Max-pooling layer: 2
+		- pool_size: 2x2
+	- hidden layer: 3
+		- nodes: 256,128,128<---------------
 		
-	Dropout layer: 1
-		Dropout: .5<--------------
+	- Dropout layer: 1
+		- Dropout: .5<--------------
 
 Epoch 1/10
 500/500 [==============================] - 18s 33ms/step - loss: 2.1833 - accuracy: 0.4546
